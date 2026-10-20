@@ -1,0 +1,51 @@
+:root {
+  --brand: #0d6e6e;
+  --brand-dark: #0a5454;
+  --accent: #f28c28;
+}
+
+body {
+  background: #f5f7f8;
+}
+
+.btn-brand {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+  background: var(--brand-dark);
+  border-color: var(--brand-dark);
+  color: #fff;
+}
+
+.text-brand {
+  color: var(--brand);
+}
+
+.badge-hot {
+  background: var(--accent);
+}
+
+.hero {
+  background: linear-gradient(120deg, var(--brand) 0%, #148f8f 60%, #3fb3a8 100%);
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.card-hover {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.price-old {
+  text-decoration: line-through;
+  color: #8a8f94;
+  font-size: 0.9rem;
+}
